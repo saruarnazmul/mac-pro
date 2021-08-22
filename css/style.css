@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* custom margin for image center */
+
+.custom-margin {
+    margin: 0 auto;
+}
+
+
+/* btn design */
+
+.btn-custom {
+    border: 1px solid rgb(109, 187, 187);
+    color: rgb(58, 53, 53);
+    outline: none;
+}
+
+.btn:hover {
+    border: 1px solid rgb(109, 187, 187);
+    background: rgb(109, 187, 187);
+    color: #ffffff;
+}
+
+
+/* coupon inbox */
+
+.input-box {
+    border: 1 px solid;
+    border: 1px solid rgb(109, 187, 187);
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    color: rgb(109, 187, 187);
+}
+
+.btn-apply {
+    background-color: rgb(233, 58, 87);
+    color: white;
+}

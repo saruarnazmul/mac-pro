@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Imac Pro</title>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-12 custom-margin">
+                    <img src="images/imac.png" alt="" class="w-100 img-fluid">
+                    <p class="text-center">Apple's thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life
+                        ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go. It’s here.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="specification">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-12">
+                    <h2 class="text-center">Choose Your Options</h2>
+                    <div class="memory  mb-3">
+                        <h4>Memory</h4>
+                        <button id="memory8" class="btn btn-custom">8GB unified memory</button>
+                        <button id="memory16" class="btn btn-custom">16GB unified memory</button>
+                    </div>
+                    <div class="Storage  mb-3">
+                        <h4>Storage</h4>
+                        <button id="storage256" class="btn btn-custom">256GB SSD storege</button>
+                        <button id="storage512" class="btn btn-custom">512GB SSD storege</button>
+                        <button id="storage1TB" class="btn btn-custom"> 1TbGB SSD storege</button>
+                    </div>
+                    <div class="memory">
+                        <h4>Choose your delivery option</h4>
+                        <button id="prime-delivery" class="btn btn-custom">Friday,25th Augst prime delivery</button>
+                        <button id="fast-delivery" class="btn btn-custom">Friday,21st Augst delivery cost $20</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-12">
+                    <h2>Total Price</h2>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Base Price:</p>
+                        <p>$ <span id="base-price">1240</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Extra Memory Cost:</p>
+                        <p>$ <span id="memory-cost">0</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Extra Storage Cost :</p>
+                        <p>$ <span id="storage-cost">0</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Delivery Charge :</p>
+                        <p>$ <span id="delivery-cost">0</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Total Price :</p>
+                        <p>$ <span id="sub-total">1240</span> </p>
+                    </div>
+                    <div class="base-price ">
+                        <p>Add Promocode</p>
+                        <p><input class="input-box" id="cupon-code" type="text"></p>
+                        <button class="btn btn-custom btn-apply" id='apply-cupon'>Apply</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="total-price ">
+        <div class="container d-grid my-5">
+            <button class="btn btn-primary text-white btn-custom" type="button">$<span id="total-price">1240</span></button>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
